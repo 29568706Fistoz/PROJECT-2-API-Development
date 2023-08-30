@@ -1,6 +1,6 @@
 # CMPG-323-Project-2: API [29568706]
 
-[(https://github.com/29568706Fistoz/29568706Fistoz-CMPG-323-Project-2_29568706/issues/1#issue-1873423453)](https://github.com/29568706Fistoz/29568706Fistoz-CMPG-323-Project-2_29568706/issues/1#issue-1873423453)
+![api-integration](https://github.com/29568706Fistoz/29568706Fistoz-CMPG-323-Project-2_29568706/assets/141215973/27e996db-99e0-46bc-8147-fee731d297c5)
 
 # EcoPower Logistics Project README
 
