@@ -2,7 +2,7 @@
 
 ![api-integration](https://github.com/29568706Fistoz/29568706Fistoz-CMPG-323-Project-2_29568706/assets/141215973/27e996db-99e0-46bc-8147-fee731d297c5)
 
-# EcoPower Logistics Project README
+# EcoPower Logistics
 
 # Table of Contents
 - Overview
