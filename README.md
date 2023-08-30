@@ -1,6 +1,6 @@
 # CMPG-323-Project-2: API [29568706]
 
-https://www.cleo.com/sites/default/files/styles/blog_hero_image/public/2022-08/api-integration.png?itok=NPxUnsHC
+[https://www.cleo.com/sites/default/files/styles/blog_hero_image/public/2022-08/api-integration.png?itok=NPxUnsHC](https://github.com/29568706Fistoz/29568706Fistoz-CMPG-323-Project-2_29568706/issues/1#issue-1873423453)
 
 # EcoPower Logistics Project README
 
