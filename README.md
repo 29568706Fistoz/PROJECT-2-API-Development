@@ -2,6 +2,16 @@
 
 # EcoPower Logistics Project README
 
+#Table of Contents
+-Overview
+-Purpose
+-Project Scope
+-How to Use the Report
+-How to Use the CRUD RESTful API
+-PI Endpoints
+-Additional Implementation Aspects
+-Conclusion
+
 ## Overview
 EcoPower Logistics specializes in providing essential parts and components for solar energy systems. These products include solar panels, mounting systems, inverters, batteries, and monitoring/control systems. The company also offers comprehensive logistics solutions for moving and managing goods, from warehousing to transportation.
 
