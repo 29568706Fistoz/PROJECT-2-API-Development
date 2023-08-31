@@ -11968,11 +11968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CMPG_323\\Project_2_API\\Project_2_API.csproj",
+      "projectUniqueName": "C:\\Users\\itstudent\\Desktop\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj",
       "projectName": "Project_2_API",
-      "projectPath": "E:\\CMPG_323\\Project_2_API\\Project_2_API.csproj",
+      "projectPath": "C:\\Users\\itstudent\\Desktop\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj",
       "packagesPath": "C:\\Users\\itstudent\\.nuget\\packages\\",
-      "outputPath": "E:\\CMPG_323\\Project_2_API\\obj\\",
+      "outputPath": "C:\\Users\\itstudent\\Desktop\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\itstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
