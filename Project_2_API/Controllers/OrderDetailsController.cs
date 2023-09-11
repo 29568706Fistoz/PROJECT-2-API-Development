@@ -13,9 +13,9 @@ namespace Project_2_API.Controllers
     [ApiController]
     public class OrderDetailsController : ControllerBase
     {
-        private readonly EcoPowerSolutionsContext _context;
+        private readonly ecopowerdbase3Context _context;
 
-        public OrderDetailsController(EcoPowerSolutionsContext context)
+        public OrderDetailsController(ecopowerdbase3Context context)
         {
             _context = context;
         }
@@ -24,10 +24,10 @@ namespace Project_2_API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OrderDetail>>> GetOrderDetails()
         {
-          if (_context.OrderDetails == null)
-          {
-              return NotFound();
-          }
+            if (_context.OrderDetails == null)
+            {
+                return NotFound();
+            }
             return await _context.OrderDetails.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace Project_2_API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<OrderDetail>> GetOrderDetail(short id)
         {
-          if (_context.OrderDetails == null)
-          {
-              return NotFound();
-          }
+            if (_context.OrderDetails == null)
+            {
+                return NotFound();
+            }
             var orderDetail = await _context.OrderDetails.FindAsync(id);
 
             if (orderDetail == null)
@@ -85,10 +85,10 @@ namespace Project_2_API.Controllers
         [HttpPost]
         public async Task<ActionResult<OrderDetail>> PostOrderDetail(OrderDetail orderDetail)
         {
-          if (_context.OrderDetails == null)
-          {
-              return Problem("Entity set 'EcoPowerSolutionsContext.OrderDetails'  is null.");
-          }
+            if (_context.OrderDetails == null)
+            {
+                return Problem("Entity set 'EcoPowerSolutionsContext.OrderDetails'  is null.");
+            }
             _context.OrderDetails.Add(orderDetail);
             try
             {

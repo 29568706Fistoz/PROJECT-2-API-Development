@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Project_2_API.Models
 {
-    public partial class EcoPowerSolutionsContext : DbContext
+    public partial class ecopowerdbase3Context : DbContext
     {
-        public EcoPowerSolutionsContext()
+        public ecopowerdbase3Context()
         {
         }
 
-        public EcoPowerSolutionsContext(DbContextOptions<EcoPowerSolutionsContext> options)
+        public ecopowerdbase3Context(DbContextOptions<ecopowerdbase3Context> options)
             : base(options)
         {
         }
@@ -26,7 +26,7 @@ namespace Project_2_API.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Integrated Security=SSPI;Persist Security Info=False;User ID='';Initial Catalog=EcoPowerSolutions;Data Source=LAB-A8-103");
+                optionsBuilder.UseSqlServer("Data Source=ecopowserv.database.windows.net;Initial Catalog=ecopowerdbase3;User ID=Mafuduka;Password=Fistoz@13;Connect Timeout=60;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             }
         }
 

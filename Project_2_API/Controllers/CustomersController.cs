@@ -13,9 +13,9 @@ namespace Project_2_API.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly EcoPowerSolutionsContext _context;
+        private readonly ecopowerdbase3Context _context;
 
-        public CustomersController(EcoPowerSolutionsContext context)
+        public CustomersController(ecopowerdbase3Context context)
         {
             _context = context;
         }
@@ -24,10 +24,10 @@ namespace Project_2_API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
+            if (_context.Customers == null)
+            {
+                return NotFound();
+            }
             return await _context.Customers.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace Project_2_API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(short id)
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
+            if (_context.Customers == null)
+            {
+                return NotFound();
+            }
             var customer = await _context.Customers.FindAsync(id);
 
             if (customer == null)
@@ -85,10 +85,10 @@ namespace Project_2_API.Controllers
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
-          if (_context.Customers == null)
-          {
-              return Problem("Entity set 'EcoPowerSolutionsContext.Customers'  is null.");
-          }
+            if (_context.Customers == null)
+            {
+                return Problem("Entity set 'EcoPowerSolutionsContext.Customers'  is null.");
+            }
             _context.Customers.Add(customer);
             try
             {

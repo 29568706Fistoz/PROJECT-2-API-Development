@@ -13,9 +13,9 @@ namespace Project_2_API.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly EcoPowerSolutionsContext _context;
+        private readonly ecopowerdbase3Context _context;
 
-        public OrdersController(EcoPowerSolutionsContext context)
+        public OrdersController(ecopowerdbase3Context context)
         {
             _context = context;
         }
@@ -24,10 +24,10 @@ namespace Project_2_API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-          if (_context.Orders == null)
-          {
-              return NotFound();
-          }
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
             return await _context.Orders.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace Project_2_API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> GetOrder(short id)
         {
-          if (_context.Orders == null)
-          {
-              return NotFound();
-          }
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
             var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
@@ -85,10 +85,10 @@ namespace Project_2_API.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
-          if (_context.Orders == null)
-          {
-              return Problem("Entity set 'EcoPowerSolutionsContext.Orders'  is null.");
-          }
+            if (_context.Orders == null)
+            {
+                return Problem("Entity set 'EcoPowerSolutionsContext.Orders'  is null.");
+            }
             _context.Orders.Add(order);
             try
             {

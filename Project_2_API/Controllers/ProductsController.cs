@@ -13,9 +13,9 @@ namespace Project_2_API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly EcoPowerSolutionsContext _context;
+        private readonly ecopowerdbase3Context _context;
 
-        public ProductsController(EcoPowerSolutionsContext context)
+        public ProductsController(ecopowerdbase3Context context)
         {
             _context = context;
         }
@@ -24,10 +24,10 @@ namespace Project_2_API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
-          if (_context.Products == null)
-          {
-              return NotFound();
-          }
+            if (_context.Products == null)
+            {
+                return NotFound();
+            }
             return await _context.Products.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace Project_2_API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(short id)
         {
-          if (_context.Products == null)
-          {
-              return NotFound();
-          }
+            if (_context.Products == null)
+            {
+                return NotFound();
+            }
             var product = await _context.Products.FindAsync(id);
 
             if (product == null)
@@ -85,10 +85,10 @@ namespace Project_2_API.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
-          if (_context.Products == null)
-          {
-              return Problem("Entity set 'EcoPowerSolutionsContext.Products'  is null.");
-          }
+            if (_context.Products == null)
+            {
+                return Problem("Entity set 'EcoPowerSolutionsContext.Products'  is null.");
+            }
             _context.Products.Add(product);
             try
             {

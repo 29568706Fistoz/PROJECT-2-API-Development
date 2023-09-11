@@ -15,7 +15,10 @@ using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Linq;
-using Project_2_API.Authentication;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using NuGet.Configuration;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -117,7 +120,7 @@ app.UseAuthorization();
 
 IConfiguration configuration = app.Configuration;
 IWebHostEnvironment environment = app.Environment;
-
 app.MapControllers();
-
 app.Run();
+
+
