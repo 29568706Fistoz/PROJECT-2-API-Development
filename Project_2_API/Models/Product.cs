@@ -15,6 +15,7 @@ namespace Project_2_API.Models
         public string? ProductDescription { get; set; }
         public int? UnitsInStock { get; set; }
 
+
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Project_2_API.Models
 {
+
     public partial class Customer
     {
         public Customer()

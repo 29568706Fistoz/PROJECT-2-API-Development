@@ -13,7 +13,7 @@ namespace Project_2_API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly ecopowerdbase3Context _context;
+        private readonly  ecopowerdbase3Context _context;
 
         public ProductsController(ecopowerdbase3Context context)
         {

@@ -26,7 +26,7 @@ namespace Project_2_API.Controllers
         {
             this.userManager = userManager;
             this.roleManager = roleManager;
-            _configuration = configuration;
+            _configuration = configuration;  
         }
         [HttpPost]
         [Route("login")]

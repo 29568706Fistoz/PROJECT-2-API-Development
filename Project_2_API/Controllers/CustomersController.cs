@@ -73,7 +73,7 @@ namespace Project_2_API.Controllers
                 }
                 else
                 {
-                    throw;
+                     throw;
                 }
             }
 

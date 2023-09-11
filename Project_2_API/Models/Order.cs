@@ -10,6 +10,7 @@ namespace Project_2_API.Models
             OrderDetails = new HashSet<OrderDetail>();
         }
 
+
         public short OrderId { get; set; }
         public DateTime OrderDate { get; set; }
         public short CustomerId { get; set; }

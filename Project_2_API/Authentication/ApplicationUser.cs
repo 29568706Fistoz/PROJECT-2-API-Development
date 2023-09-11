@@ -4,5 +4,6 @@ namespace Project_2_API.Authentication
 {
     public class ApplicationUser : IdentityUser
     {
+
     }
 }

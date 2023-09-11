@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2goz+C114JXZNUDe3XGPVNmZ1OeV7FVjbptJ7Ds8LSD1++8ZaU8B+0SuHPM3BnwHT834LcLegT2fpd+4gONnsg==",
+  "dgSpecHash": "YrCWXN6Z+InuWMpPdX8jf2544AfG0r82IXck788g/+elJmE/mJ3Tv1bmNa33vtKz6Sc5XzICSJMdNYXGcrmr5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Fistoz\\Project_2_API\\Project_2_API.csproj",
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\29568706Fistoz\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

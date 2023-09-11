@@ -11,6 +11,8 @@ namespace Project_2_API.Authentication
         {
 
         }
+
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

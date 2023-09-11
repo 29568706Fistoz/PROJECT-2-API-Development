@@ -17,7 +17,7 @@ namespace Project_2_API.Controllers
 
         public OrdersController(ecopowerdbase3Context context)
         {
-            _context = context;
+             _context = context;
         }
 
         // GET: api/Orders

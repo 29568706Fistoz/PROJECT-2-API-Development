@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Fistoz\\Project_2_API\\Project_2_API.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\29568706Fistoz\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Fistoz\\Project_2_API\\Project_2_API.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\29568706Fistoz\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Fistoz\\Project_2_API\\Project_2_API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\29568706Fistoz\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj",
         "projectName": "Project_2_API",
-        "projectPath": "C:\\Users\\user\\Desktop\\Fistoz\\Project_2_API\\Project_2_API.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\29568706Fistoz\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\Project_2_API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Fistoz\\Project_2_API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\29568706Fistoz\\29568706Fistoz-CMPG-323-Project-2_29568706\\Project_2_API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

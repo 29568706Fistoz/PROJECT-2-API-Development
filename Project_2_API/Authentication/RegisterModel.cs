@@ -5,6 +5,7 @@ namespace Project_2_API.Authentication
     public class RegisterModel
     {
         [Required(ErrorMessage = "User Name is required")]
+
         public string? Username { get; set; }
 
 

@@ -11,3 +11,4 @@ namespace Project_2_API.Authentication
         public string? Password { get; set; }
     }
 }
+
