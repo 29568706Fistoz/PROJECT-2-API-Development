@@ -6,7 +6,7 @@
 
 # Table of Contents
 - Overview
-- Purpose
+- Purpose 
 - Project Scope
 - How to Use the Report
 - How to Use the CRUD RESTful API
